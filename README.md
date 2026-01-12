@@ -8,6 +8,6 @@ A simple ICMP ping utility implemented in C++ using raw sockets. This program se
 
 ## Build and Run
 ```bash
-g++ -o ping 
+g++ main.cpp -o ping 
 sudo ./ping <hostname>
 ```
